@@ -36,22 +36,23 @@ const Success = () => {
           <div className='w-[40%] sm:w-[25%] lg:w-[20%]'>
             <img src={Swril} alt="Swril" className='w-full aspect-4/3 object-contain' />
           </div>
-          <div className='w-[40%] sm:w-[25%] lg:w-[20%]'>
-            <img src={Motive} alt="Motive" className='w-full aspect-4/3 object-contain' />
+          <div className='w-[40%] sm:w-[25%] lg:w-[20%] '>
+            <div className='w-[200px] h-[200px] bg-white p-4 motive rounded-full'>
+            <img src={Motive} alt="Motive" className='w-full aspect-4/3 object-contain' /></div>
           </div>
         </div>
       </div>
 
       {/* Community Section */}
       <div className='flex justify-center text-center flex-col mt-12 sm:mt-15 lg:mt-15 px-4 sm:px-8 lg:px-20 relative'>
-        <div className='w-[60%] sm:w-[40%] lg:w-[30%] absolute -top-20 sm:-top-40 lg:-top-55 left-4 sm:left-8 lg:left-10'>
+        <div className='w-[60%] sm:w-[40%] lg:w-[30%] absolute -top-20 sm:-top-40 lg:-top-30 left-4 sm:left-8 lg:left-6'>
           <img src={Logo} alt="Logo" className='w-full' />
         </div>
         <div className='mt-16 sm:mt-20 lg:mt-24'>
           <h1 className='text-2xl sm:text-4xl lg:text-6xl font-bold leading-tight mb-4 lg:mb-6'>Join Growvy's 50M+ Job Seeker Community & Get Hired Faster!</h1>
           <p className='text-lg sm:text-xl lg:text-3xl leading-relaxed mb-6 lg:mb-8'>"Build your profile, get noticed by top employers, and access exclusive job opportunities tailored to your skills. Your next career move starts here!"</p>
-          <div className='flex justify-center'>
-            <button className='bg-green-500 text-sm sm:text-base lg:text-lg px-6 sm:px-8 py-2 rounded-2xl text-white font-bold mt-4 hover:bg-green-600 transition-colors duration-300'>Sign in</button>
+          <div className='flex justify-center mb-15'>
+            <button className='bg-green-500 text-sm sm:text-base lg:text-lg lg:px-12 sm:px-8 py-2 rounded-2xl text-white font-bold mt-4 hover:bg-green-600 transition-colors duration-300'>Sign in</button>
           </div>
         </div>
       </div>
@@ -59,8 +60,8 @@ const Success = () => {
       {/* Testimonials Section */}
       <div className='flex flex-col lg:flex-row justify-center items-center mt-12 sm:mt-16 lg:mt-20 gap-8 lg:gap-15'>
         {/* First Testimonial */}
-        <div className='relative w-full lg:w-[30%]'>
-          <div className='w-[90px]  lg:w-[30%] absolute -top-8 sm:-top-12 lg:-top-14 -left-4 sm:-left-8 lg:-left-10'>
+        <div className='relative w-full lg:w-[40%]'>
+          <div className='w-[90px]  lg:w-[30%] absolute -top-8 sm:-top-12 lg:-top-20 -left-4 sm:-left-8 lg:-left-15'>
             <img src={User} alt="User" className='w-full' />
           </div>
           <div className='box w-full h-[150px] sm:h-[180px] lg:h-[200px] text-center bg-white rounded-lg shadow-lg border p-4 sm:p-6'>
@@ -76,8 +77,8 @@ const Success = () => {
         </div>
 
         {/* Second Testimonial */}
-        <div className='relative w-full lg:w-[30%]'>
-          <div className='w-[90px]  lg:w-[30%] absolute -top-8 sm:-top-12 lg:-top-14 -left-4 sm:-left-8 lg:-left-10'>
+        <div className='relative w-full lg:w-[40%]'>
+          <div className='w-[90px]  lg:w-[30%] absolute -top-8 sm:-top-12 lg:-top-20 -left-4 sm:-left-8 lg:-left-15'>
             <img src={User} alt="User" className='w-full' />
           </div>
           <div className='box w-full h-[150px] sm:h-[180px] lg:h-[200px] text-center bg-white rounded-lg shadow-lg border p-4 sm:p-6'>

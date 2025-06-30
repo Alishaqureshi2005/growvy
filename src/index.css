@@ -16,3 +16,6 @@
     background: linear-gradient(white, white) padding-box,
                 linear-gradient(90deg, #22c55e, #84cc16) border-box;
 }
+.motive{
+    filter: invert();
+}
