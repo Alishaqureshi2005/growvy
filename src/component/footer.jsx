@@ -8,7 +8,7 @@ import Trend from '../media/trend.png'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col lg:flex-row px-4 sm:px-8 lg:px-20 py-8 lg:py-12 bg-gray-50'>
+    <div className='flex flex-col lg:flex-row px-8 sm:px-8 lg:px-20 py-8 lg:py-12  bg-gray-50'>
         {/* First Section - Logo and Description */}
         <div className='w-full lg:w-[25%] mb-8 lg:mb-0'>
           <div className='w-full space-y-4'>
